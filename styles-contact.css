@@ -1,0 +1,160 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/leaf-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+	   background-attachment: fixed;
+  background-position: center; 
+		
+}
+
+.center {
+    width: 600px;
+	padding: 1%;
+    margin: 100px auto;
+	 background: rgba(255, 255, 255, 0.60); 
+	text-align: center;
+	border: 2px solid #591202;
+	border-radius: 10px
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	/* border: 3px dashed red; */
+	text-align: center;
+}
+
+@font-face {
+	font-family: 'Janda Curlygirl Chunky Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Janda Curlygirl Chunky Regular'), url('JandaCurlygirlChunky.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Lucida Calligraphy';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Lucida Calligraphy'), url('LCALLIG.TTF') format('ttf');
+}
+
+h1 {
+	font-family: 'Janda Curlygirl Chunky Regular';
+	font-size: 2.5em;
+	line-height: 45px;
+    margin: 0px auto 10px auto;
+    color: #014040;
+}
+
+
+h2 {
+	font-family: 'Lucida Calligraphy', serif;
+	font-size: 1.4em;
+ 	line-height: 25px;
+	color: #F2B84B;
+	padding: 0px 0px;
+	margin: 0px auto 25px auto;
+}
+
+p {
+	font-family: Cambria, serif;
+	font-size: 1.1em;
+    line-height: 23px;
+    color: black;
+}
+    
+p.address {
+	font-family: Cambria, serif;
+	font-size: .9em;
+    line-height: 25px;
+    color: black;
+}    
+
+nav{
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	width: 450px; 
+	margin: 0 auto; 
+	border: double #F2B84B;
+	border-width: 4px 0; 
+	text-align: center;
+	margin-top: 2em;
+	}
+	nav li{
+	display: inline; 
+	}
+	nav a{
+	display: inline-block;
+	padding: 10px; 
+	}
+	a{
+	color: #014040;
+	text-decoration: none; /
+	font-weight: bold;
+	}
+	a:hover{
+	color: white;
+	background: #F2B84B; 
+	}
